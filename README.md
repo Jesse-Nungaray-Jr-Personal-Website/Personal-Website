@@ -1,1 +1,3 @@
-# Personal-Website
+# Personal Website
+
+Determinded, Fun, loyal
