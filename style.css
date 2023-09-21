@@ -1,0 +1,49 @@
+body{
+    background-color:cadetblue;
+}
+
+.textinfo {
+    background-color:grey;
+    display:block;
+    text-align: center;
+    margin: auto;
+    width:auto;
+    
+}
+
+.headertext {background-color:lightslategray;
+    width: 100%;
+    display: block;
+    padding-block: 0%;
+
+}
+
+.themind{
+    text-align: center;
+    font-size: larger;
+    font-style:italic;
+
+}
+
+.links{text-align: right;
+    font-size: 115%;
+
+}
+
+.name{
+    font-size: 150%;
+}
+
+p{
+    text-align:left;
+    display: block;
+}
+
+h2 {
+    display:flex;
+}
+
+img{
+
+    display: block;
+}
