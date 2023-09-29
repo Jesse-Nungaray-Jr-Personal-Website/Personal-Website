@@ -1,49 +1,99 @@
-body{
-    background-color:cadetblue;
+body {
+  background-color: bisque;
 }
 
 .textinfo {
-    background-color:grey;
-    display:block;
-    text-align: center;
-    margin: auto;
-    width:auto;
-    
+  background-color:olive;
+  display: grid;
+  text-align: center;
+  margin: 60px 60px;
+  width:auto;
+
+  
 }
 
-.headertext {background-color:lightslategray;
-    width: 100%;
-    display: block;
-    padding-block: 0%;
-
+.aboutinfo {
+background-color:olive;
+border-radius: 10px;
+margin: 20px 20px;
+font-weight:bold;
 }
 
-.themind{
-    text-align: center;
-    font-size: larger;
-    font-style:italic;
-
-}
-
-.links{text-align: right;
-    font-size: 115%;
+.aboutcolor {
+  color: black;
+  font-family: fantasy;
+  font-weight: bolder;
 
 }
 
-.name{
-    font-size: 150%;
+.portinfo {
+ margin: 100px 50px;
+ display: flex;
+ flex-direction:column;
+align-items: center;
+background-color: olive;
+width: 10px 10px;
+
 }
 
-p{
-    text-align:left;
-    display: block;
+.porttext {
+margin: 100px 50px;
+text-align: center;
+display: flex;
+flex-direction:column;
+color:black;
+font-weight: bolder;
+
+}
+
+.headertext {
+  background-color:olive;
+  width: 100%;
+  display:grid;
+  margin: 10px 1px;
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+
+.themind {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  display: grid;
+  color:gold;
+}
+
+.links {
+  text-align: right;
+  font-size: 115%;
+  margin: 5px 10px;
+}
+
+.name {
+  font-size: 180%;
+  margin: 5px 20px;
+}
+
+p {
+  text-align: left;
+  text-indent: 2%;
+  padding: 6px 6px 6px 6px;
+  color: ghostwhite;
+  font-size: large;
 }
 
 h2 {
-    display:flex;
+  display: flex;
+  text-align: left;
+  font-size: 30px;
 }
 
-img{
-
-    display: block;
-}
+.movepic {
+  border-radius: 10px;
+  @media screen { min-width:350px; display: flex;
+    flex-direction:row
+    
+  }
+  }
+  
